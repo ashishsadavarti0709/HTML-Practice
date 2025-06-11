@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12_Form_Elements</title>
+    <meta name="author" content="Ashish">
+    <meta name="keywords" content="HTML CSS">
+    <meta name="description" content="We are learning HTML">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Information</legend>
+            <label for="degree">Enter your Degree</label>
+            <select id="degree">
+                <option value="Btech">B.Tech</option>
+                <option value="Mtech">M.Tech</option>
+                <option value="BA" selected>BA</option>
+                <option value="MCA">MCA</option>
+                <option value="other degree">Other Degree</option>
+            </select>
+            <br>
+            <br>
+            <label for="Introduction">Your Introduction</label>
+            <textarea id="Introduction" name="message" rows="10" columns="30"></textarea>
+        </fieldset>
+        
+        <br>
+        <br>
+        
+        <input type="submit">
+        <input type="button" value="Click me">
+        <button value="Submitt">Submit Form</button>
+
+        <br>
+        <br>
+
+        <label for="pic">Upload Image</label>
+        <input id="pic" type="file" name="file">
+    </form>
+
+</body>
+</html>
